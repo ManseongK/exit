@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <script type="text/javascript">
+      myWindow = window.open("", "", "width=200,height=100");
+
+      myWindow.document.write("<p>The new window.</p>");
+
+      myWindow.blur();
+      document.oncontextmenu = function () {
+        return false;
+      };
+    </script>
+    <style type="text/css">
+      html,
+      body {
+        height: 100%;
+        overflow: hidden;
+      }
+      .h-div {
+        height: 82%;
+      }
+    </style>
+  </head>
+  <body
+    oncontextmenu="return false"
+    onselectstart="return false"
+    ondragstart="return false"
+  >
+    <div>dkdkdkk</div>
+  </body>
+</html>
