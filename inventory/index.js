@@ -1,7 +1,3 @@
-document.oncontextmenu = function () {
-  return false;
-};
-
 alert("dd");
 
 const ret = window.open(
