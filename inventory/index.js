@@ -1,4 +1,4 @@
-alert("dd");
+alert("ddd");
 
 const ret = window.open(
   "./inventory.html",
