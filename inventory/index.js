@@ -3,3 +3,4 @@ document.oncontextmenu = function () {
 };
 
 const ret = window.open("./inventory.html", "", "width=300, height=300");
+ret.blur();
