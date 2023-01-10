@@ -2,6 +2,8 @@ document.oncontextmenu = function () {
   return false;
 };
 
+alert("dd");
+
 const ret = window.open(
   "./inventory.html",
   "_blank",
